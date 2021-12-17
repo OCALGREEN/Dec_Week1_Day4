@@ -1,0 +1,28 @@
+.container {
+    height: 1000px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.flex {
+    display: flex; 
+    align-items: center;
+}
+.box1 {
+    width: 750px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid grey;
+}
+.box2 {
+    width: 375px;
+    height: 500px;
+    align-content: center;
+}
+.pic-background-color {
+    background-color: #16A2B8;
+    height: 50%;
+    width: 200%;
+}
