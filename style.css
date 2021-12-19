@@ -1,3 +1,10 @@
+/*              Code for User Card HTML             */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .container {
     height: 1000px;
     display: flex; 
@@ -25,4 +32,114 @@
     background-color: #16A2B8;
     height: 50%;
     width: 200%;
+}
+
+
+
+
+
+
+
+
+/*              Code for Profile Page HTML              */
+.nav-bar {
+    background-color: black;
+    color: white;
+    ;
+}
+.flex {
+    display: flex;
+}
+.align-items {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.col-3 {
+    flex: 3; 
+}
+.col-2 {
+    flex: 2; 
+}
+.nav-bar div {
+    width: 44em; 
+}
+.nav-bar button {
+    background-color: #16A2B8;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 15px;
+    border: 0px; 
+}
+.main {
+
+}
+.profile {
+    height: 100%;
+    width: 100%;
+    padding: 1em; 
+}
+.connections {
+    height: 100%;
+    width: 100%;
+    padding: 1em; 
+}
+.connections-card {
+    border: 5px solid black;
+    margin-bottom: 1em;
+}
+.connections-header {
+    background-color: black;
+    color: white;
+    padding: 1em; 
+}
+.connections-card div:first-child h1 span {
+    color: black;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 0.25em 0.5em; 
+}
+.request {
+    padding: 0.5em;
+}
+.request img {
+    margin-right: 0.25em; 
+    border-radius: 50%;
+}
+.connections-footer {
+    border-top: 5px solid black;
+    padding: 0.25em 0.5em;
+}
+.user-card {
+    border: 1em solid #16A2B8; 
+    height: 400px;
+    width: 90%;
+    margin-bottom: 1em; 
+}
+.profile-contents {
+    padding-left: 1em;
+    margin-bottom: 0.25em;
+}
+.profile-contents img {
+    border-radius: 50%;
+    margin-right: 0.5em; 
+
+}
+.profile-picture {
+    height: 150%;
+    width: max-content;
+    border-radius: 50%;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.user-card div:first-child {
+    background-color: #16A2B8;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 5em;
 }
